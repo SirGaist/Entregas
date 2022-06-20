@@ -1,0 +1,44 @@
+.cabecera{
+    border-radius: 18px;
+    text-align: center;
+}
+.secformulario{
+    position: absolute;
+    left: 50%;
+    width: 320px;
+    padding-top: 15px;
+    border-radius: 13px;
+    background-color: #9FB9F5;
+    margin-left: -160px;
+    text-align: right;
+    border-style: solid;
+}
+.secformulario h2{
+    text-align: center;
+}
+.secformulario form{
+    background-color: #e9e6e6;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+.secformulario div{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.secformulario div input{
+    width: 100%;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.secformulario form #submit{
+    width: 117px;
+    margin-left: 90px;
+}
